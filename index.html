@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.bgimg-1 {
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("img/img_1.jpg");
+  min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  background-color: white;
+  opacity: 0.75;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.wbt {
+}
+
+h3 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font: 25px "Helvetica", sans-serif;
+  color: #111;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font: 200 25px/1.5 Helvetica, Verdana, sans-serif;
+  border: none;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a { 
+  text-decoration: none;
+  color: #000;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 100%;
+}
+
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+
+.main {
+  padding: 16px 0px;
+  margin-top: 42px;
+  height: 750px; /* Used in this example to enable scrolling */
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div class="main">
+
+  <div class="bgimg-1">
+    <div class="caption" style="">
+      <h3 style="text-align:center;">Udemy Projects</h3>
+      These are some of the fun side projects that I've done as part of the <a href="https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/">Python for Data Science and Machine Learning Bootcamp</a> course:
+      <br>
+      <br>
+      <div id="Udemy" name="Udemy" style="text-align:center;margin-left:25%;margin-right:25%">
+        <ul>
+            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/911_Calls_Data_Capstone_Project.html"> 911 Calls Data Capstone Project </a></li>
+            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Linear_Regression_with_Python.html"> Linear Regression with Python </a></li>
+            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Logistic_Regression_with_Python.html"> Logistic Regression with Python </a></li>
+        </ul>
+      </div>
+      <br>
+    </div>
+  </div>
+  
+</div>
+
+<div class="navbar">
+  <a href="https://amete.github.io/Personal_Homepage/index.html"><i class="fa fa-home"></i>&nbsp;Home</a>
+  <a href="https://github.com/amete"><i class="fa fa-github"></i>&nbsp;My GitHub Profile</a>
+  <a href="https://linkedin.com/in/asmete"><i class="fa fa-linkedin"></i>&nbsp;My LinkedIn Profile</a>
+  <a href="https://amete.github.io/CurriculumVitae/Industry/METE_AS_CV.pdf"><i class="fa fa-file-pdf-o"></i>&nbsp;My CV</a>
+  <a href="https://amete.github.io/DataSciencePortfolio/index.html"><i class="fa fa-flask"></i>&nbsp;Side Projects</a>
+  <a href="mailto:serhanmete@gmail.com"><i class="fa fa-envelope-o"></i>&nbsp;Contact Me</a>
+</div>
