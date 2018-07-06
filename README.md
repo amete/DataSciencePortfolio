@@ -1,3 +1,3 @@
 # DataSciencePortfolio
 
-This repository contains some side projects and fun material.
+This repository contains some Data Science related side projects and fun material.
