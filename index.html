@@ -1,233 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Homepage of Alaettin Serhan Mete</title>  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Helvetica", sans-serif;
-    color: #f2f2f2;
-}
-
-.bgimg-1 {
-  position: relative;
-  opacity: 0.85;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bgimg-1 {
-  background-image: url("img/img_1.jpg");
-  min-height: 90%;
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 10%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-  font-size: 18px;
-  background-color: white;
-  opacity: 0.75;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
-
-.navbar {
-  overflow: visible;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.dropdown {
-  float: left;
-}
-
-.dropdown .dropbtn {
-  font-size: 17px;
-  border: none;
-  outline: none;
-  color: #f2f2f2;
-  padding: 19px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-}
-
-.dropdown-content a {
-  float: none;
-  color: #333;
-  padding: 10px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.footer{
-  background-color: #333;
-  position: fixed;
-  bottom:0px;
-  width: 100%;
-}
-
-h3 {
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font: 25px "Helvetica", sans-serif;
-  color: #111;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  font: 200 25px/1.5 Helvetica, Verdana, sans-serif;
-  border: none;
-}
-
-li:last-child {
-  border: none;
-}
-
-li a { 
-  text-decoration: none;
-  color: #000;
-
-  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease;
-  display: block;
-  width: 100%;
-}
-
-li a:hover {
-  font-size: 30px;
-  background: #f6f6f6;
-}
-
-.main {
-  padding: 16px 0px;
-  margin-top: 42px;
-  height: 750px; /* Used in this example to enable scrolling */
-}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1 {
-        background-attachment: scroll;
-    }
-}
-
-</style>
+  <title>Homepage of Alaettin Serhan Mete</title>  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
+  <link rel="stylesheet" href="https://amete.github.io/Personal_Homepage/styles.css">
 </head>
 <body>
 
-<div class="main">
+  <!--Part 1-->
+  <div class="bgimg-4">
+    <div class="coursebox">
+      These are some of the fun side projects that I completed. 
+      <br>
+      Go ahead and click on the links to get more information!
+      <br>
+      <br>
+      <a href="#udemy">Udemy: Python for Data Science and Machine Learning Bootcamp</a>
+      <br>
+      <br>
+      <a href="#coursera">Coursera: Data Science Specialization (in R)</a>
+    </div>  
+  </div>
 
-  <div class="bgimg-1">
-    <div class="caption" style="">
-      <h3 style="text-align:center;">Udemy Projects</h3>
-      These are some of the fun side projects that I've completed as part of the <a href="https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/">Python for Data Science and Machine Learning Bootcamp</a> course:
+  <!--Part 2-->
+  <div class="bgimg-4">
+    <div id="udemy" class="coursebox" style="">
+      <a href="https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/">Udemy: Python for Data Science and Machine Learning Bootcamp</a>
       <br>
+      <ul>
+          <li><a href="Udemy/Python-DS-and-ML-Bootcamp/911_Calls_Data_Capstone_Project.html"> 911 Calls Data Capstone Project </a></li>
+          <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Finance_Project.html"> Finance Project </a></li>
+          <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Linear_Regression_Project.html"> Linear Regression Project </a></li>
+          <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Logistic_Regression_Project.html"> Logistic Regression Project </a></li>
+          <li><a href="Udemy/Python-DS-and-ML-Bootcamp/K_Nearest_Neighbors_Project.html"> K Nearest Neighbors Project </a></li>
+          <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Decision_Trees_and_Random_Forest_Project.html"> Decision Trees and Random Forest Project </a></li>
+          <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Support_Vector_Machines_Project.html"> Support Vector Machines Project </a></li>
+          <li><a href="Udemy/Python-DS-and-ML-Bootcamp/K_Means_Clustering_Project.html"> K Means Clustering Project </a></li>
+          <li><a href="Udemy/Python-DS-and-ML-Bootcamp/NLP_Project.html"> NLP (Natural Language Processing) Project </a></li>
+          <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Tensorflow_Project.html"> Tensorflow/Keras Project </a></li>
+      </ul>
       <br>
-      <div id="Udemy" name="Udemy" style="text-align:center;margin-left:25%;margin-right:25%">
-        <ul>
-            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/911_Calls_Data_Capstone_Project.html"> 911 Calls Data Capstone Project </a></li>
-            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Finance_Project.html"> Finance Project </a></li>
-            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Linear_Regression_Project.html"> Linear Regression Project </a></li>
-            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Logistic_Regression_Project.html"> Logistic Regression Project </a></li>
-            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/K_Nearest_Neighbors_Project.html"> K Nearest Neighbors Project </a></li>
-            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Decision_Trees_and_Random_Forest_Project.html"> Decision Trees and Random Forest Project </a></li>
-            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Support_Vector_Machines_Project.html"> Support Vector Machines Project </a></li>
-            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/K_Means_Clustering_Project.html"> K Means Clustering Project </a></li>
-            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/NLP_Project.html"> NLP (Natural Language Processing) Project </a></li>
-            <li><a href="Udemy/Python-DS-and-ML-Bootcamp/Tensorflow_Project.html"> Tensorflow/Keras Project </a></li>
-        </ul>
+    </div>
+  </div>
+
+  <!--Part 3-->
+  <div class="bgimg-4">
+    <div id="coursera" class="coursebox">
+      <a href="https://www.coursera.org/specializations/jhu-data-science">Coursera: Data Science Specialization (in R) </a>
+      <br>
+      <ul>
+          <li><a href="https://amete.github.io/RegressionModelsCourseProject/run_project.pdf"> Regression Models Course Project </a></li>
+          <li><a href="https://amete.github.io/PracticalMachineLearningAssignment/project_writeup.html"> Practical Machine Learning Project </a></li>
+          <li><a href="https://amete.shinyapps.io/Shiny-Application-and-Reproducible-Pitch-Course-Project/"> Shiny Application Demonstration </a></li>
+      </ul>
+      <br>
+    </div>
+  </div>
+
+  <!--Navbar-->
+  <div class="navbar">
+    <a href="./index.html"><i class="fa fa-home"></i>&nbsp;Home</a>
+    <a href="https://github.com/amete"><i class="fa fa-github"></i>&nbsp;My GitHub Profile</a>
+    <a href="https://linkedin.com/in/asmete"><i class="fa fa-linkedin"></i>&nbsp;My LinkedIn Profile</a>
+    <a href="https://amete.github.io/CurriculumVitae/Industry/METE_AS_CV.pdf"><i class="fa fa-file-pdf-o"></i>&nbsp;My CV</a>
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fa fa-flask"></i>&nbsp;Side Projects <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <a href="https://amete.github.io/DataSciencePortfolio/index.html">Data Science Portfolio</a>
+        <a href="https://github.com/HSF/prmon">PRocess MONitor (PRMON)</a>
       </div>
-      <br>
     </div>
+    <a href="mailto:serhanmete@gmail.com"><i class="fa fa-envelope-o"></i>&nbsp;Contact Me</a>
   </div>
-  <div class="bgimg-1">
-    <div class="caption" style="">
-      <h3 style="text-align:center;">Coursera Projects</h3>
-      These are some of the fun side projects that I've completed as part of the <a href="https://www.coursera.org/specializations/jhu-data-science">Data Science Specialization (in R)</a> course:
-      <br>
-      <br>
-      <div id="Coursera" name="Coursera" style="text-align:center;margin-left:25%;margin-right:25%">
-        <ul>
-            <li><a href="https://amete.github.io/RegressionModelsCourseProject/run_project.pdf"> Regression Models Course Project </a></li>
-            <li><a href="https://amete.github.io/PracticalMachineLearningAssignment/project_writeup.html"> Practical Machine Learning Project </a></li>
-            <li><a href="https://amete.shinyapps.io/Shiny-Application-and-Reproducible-Pitch-Course-Project/"> Shiny Application Demonstration </a></li>
-        </ul>
-      </div>
-      <br>
-    </div>
-  </div>
-  
-</div>
 
-<div class="navbar">
-  <a href="https://amete.github.io/Personal_Homepage/index.html"><i class="fa fa-home"></i>&nbsp;Home</a>
-  <a href="https://github.com/amete"><i class="fa fa-github"></i>&nbsp;My GitHub Profile</a>
-  <a href="https://linkedin.com/in/asmete"><i class="fa fa-linkedin"></i>&nbsp;My LinkedIn Profile</a>
-  <a href="https://amete.github.io/CurriculumVitae/Industry/METE_AS_CV.pdf"><i class="fa fa-file-pdf-o"></i>&nbsp;My CV</a>
-  <div class="dropdown">
-    <button class="dropbtn"><i class="fa fa-flask"></i>&nbsp;Side Projects <i class="fa fa-caret-down"></i></button>
-    <div class="dropdown-content">
-      <a href="https://amete.github.io/DataSciencePortfolio/index.html">Data Science Portfolio</a>
-      <a href="https://github.com/HSF/prmon">PRocess MONitor (PRMON)</a>
-    </div>
+  <!--Footer-->
+  <div class="footer">
+    Copyright <i class="fa fa-copyright"></i> Alaettin Serhan Mete, 2018. All rights reserved.
   </div>
-  <a href="mailto:serhanmete@gmail.com"><i class="fa fa-envelope-o"></i>&nbsp;Contact Me</a>
-</div>
 
-<div class="footer">
-  Copyright <i class="fa fa-copyright"></i> Alaettin Serhan Mete, 2018. All rights reserved.
-</div>
+
+</body>
+</html>
